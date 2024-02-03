@@ -1,16 +1,16 @@
-# What is Customer Churn?
+### What is Customer Churn?
 Customer churn occurs when individuals or subscribers terminate their association with a company or service provider. In the highly competitive telecom industry, where customers have a plethora of options, annual churn rates typically range from 15-25 percent.
 
 Given the vast number of customers, personalized retention efforts are challenging for most companies due to the associated high costs. However, identifying potential churn in advance enables companies to concentrate retention efforts on "high-risk" customers, aiming to expand coverage and enhance customer loyalty.
 
 Detecting early signs of churn requires a comprehensive understanding of customer interactions across various channels. Successfully addressing churn not only helps companies maintain their market position but also fosters growth. Retaining existing customers proves more cost-effective than acquiring new ones, making client attrition reduction and effective retention strategies crucial for success in this industry. The ultimate goal is to increase the customer base, lower initiation costs, and maximize profits.
 
-# Data Understanding- 
+### Data Understanding
 Total Charges - Had to convert to numeric, and found 11 missing values, but the % of missing values is immensely low i.e. 0.15%, its a Data Analysts call to either remove these records or impute them.   
-# Data cleaning-
+### Data cleaning
 Dividing the tenure column into tenure groups is a common preprocessing step in data cleaning for churn analysis. This transformation simplifies the analysis by categorizing customers based on their tenure, making it easier to identify patterns and trends. 
 Deleting the original tenure column, after creating the groups, helps reduce redundancy in the dataset and ensures a more streamlined and efficient analysis process. This process facilitates better insights into the relationship between tenure and churn, contributing to a more effective churn analysis.  
-# Insights-
+### Insights
 -Month to Month customers are more likely to churn.
 
 -Senior Citizens are more likely to churn.
