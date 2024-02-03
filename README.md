@@ -5,6 +5,15 @@ Given the vast number of customers, personalized retention efforts are challengi
 
 Detecting early signs of churn requires a comprehensive understanding of customer interactions across various channels. Successfully addressing churn not only helps companies maintain their market position but also fosters growth. Retaining existing customers proves more cost-effective than acquiring new ones, making client attrition reduction and effective retention strategies crucial for success in this industry. The ultimate goal is to increase the customer base, lower initiation costs, and maximize profits.
 
+### Data Set 
+ [Telco Customer Churn](https://www.kaggle.com/bhartiprasad17/customer-churn-prediction/data).
+ ### The data set includes information about:
+
+- Customers who left within the last month – the column is called Churn
+- Services that each customer has signed up for – phone, multiple lines, internet, online security, online backup, device protection, tech support, and streaming TV and movies
+- Customer account information – how long they’ve been a customer, contract, payment method, paperless billing, monthly charges, and total charges
+- Demographic info about customers – gender, age range, and if they have partners and dependents
+
 ### Data Understanding
 Total Charges - Had to convert to numeric, and found 11 missing values, but the % of missing values is immensely low i.e. 0.15%, its a Data Analysts call to either remove these records or impute them.   
 ### Data cleaning
