@@ -10,6 +10,15 @@ Total Charges - Had to convert to numeric, and found 11 missing values, but the 
 ### Data cleaning
 Dividing the tenure column into tenure groups is a common preprocessing step in data cleaning for churn analysis. This transformation simplifies the analysis by categorizing customers based on their tenure, making it easier to identify patterns and trends. 
 Deleting the original tenure column, after creating the groups, helps reduce redundancy in the dataset and ensures a more streamlined and efficient analysis process. This process facilitates better insights into the relationship between tenure and churn, contributing to a more effective churn analysis.  
+
+### Univariate Analysis 
+involves examining the categorical columns of the customer churn table in relation to the churn category. The aim is to identify key performance indicators (KPIs) that can contribute to reducing the churn rate.
+
+### Bivariate Analysis 
+takes the entire dataset and categorizes records into active and churned customers. By creating separate data frames for these groups, a comparative analysis is conducted between the columns in the query table. This approach helps identify factors that significantly impact the churn rate. Various graphs are generated during this analysis to visually represent the relationships.
+
+### Numerical Analysis 
+employs the lmplot method to generate a scatter plot between total charges and monthly charges, facilitating the identification of their relationship. Additionally, KDE plots are created for both monthly charges and total charges to assess the density of these factors in the dataset. These analytical techniques contribute to a comprehensive understanding of the factors influencing customer churn.
 ### Insights
 -Month to Month customers are more likely to churn.
 
